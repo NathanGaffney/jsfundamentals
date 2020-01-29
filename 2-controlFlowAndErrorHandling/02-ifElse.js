@@ -62,15 +62,16 @@ CHALLENGE
                 // }
                 
                 //GOLD
-                // let name = 'NAtHaN';
-                // let firstLetter = name[0];
-                // let splitName = name.split(name[0]);
+                let name = 'NAtHan';
+                let firstLetter = name[0];
+                let splitName = name.split(name[0]);
+                console.log(splitName)
                 
-                // if (firstLetter == 'N') {
-                //     console.log(firstLetter + splitName[1].toLowerCase());
-                // } else {
-                //     console.log(firstLetter.toUpperCase() + splitName[1].toLowerCase());
-                // }
+                if (firstLetter == 'N') {
+                    console.log(firstLetter + splitName[1].toLowerCase() + firstLetter.toLowerCase());
+                } else {
+                    console.log(firstLetter.toUpperCase() + splitName[1].toLowerCase());
+                }
                 
                 
 // BRONZE
@@ -113,12 +114,12 @@ CHALLENGE
 
 let age = 26;
 
-if (age >= 18) {
-    console.log("You can vote!")
+if (age >= 25) {
+    console.log("You can rent a car!")
 } else if (age >= 21) {
     console.log("You can drink!");
-} else if (age >= 25) {
-    console.log("You can rent a car!")
+} else if (age >= 18) {
+    console.log("You can vote!")
 } else {
     console.log("Sorry, you're too young to do anything.")
 }
